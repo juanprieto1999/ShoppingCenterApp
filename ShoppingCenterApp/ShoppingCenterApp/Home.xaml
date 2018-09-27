@@ -5,9 +5,19 @@
              Title="Shopping Center">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Bienvenido"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry
+                x:Name="SearchEntry"
+                Placeholder="Buscar"
+                Keyboard="Text"
+               HorizontalOptions="FillAndExpand"/>
+
+            <Image Source="SL1.jpg" HorizontalOptions="Center" WidthRequest="20"/>
+        </StackLayout>
+        
+        <StackLayout>
+            <Image Source="img1.jgp" />
+            
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
