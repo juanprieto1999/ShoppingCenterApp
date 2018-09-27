@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShoppingCenterApp.MasterPage"
+             xmlns:local="clr-namespace:ShoppingCenterApp"
+             Padding="0,40,0,0"
+             Icon="prueba.png"
+             Title="Shopping">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="listView">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type local:MasterPageItem}">
+                        <local:MasterPageItem Titulo="Inicio" Icono="contactos.png" TipoPagina="{x:Type local:Home}"/>
+                        <local:MasterPageItem Titulo="Tus Tiendas" Icono="listado.png" TipoPagina="{x:Type local:MisTiendas}"/>
+                      
+                    </x:Array>
+
+                </ListView.ItemsSource>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="5.10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding Icono}"/>
+                                <Label Grid.Column="1" Text="{Binding Titulo}"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
