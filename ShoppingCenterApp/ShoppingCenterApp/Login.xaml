@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage Title="Registro" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ShoppingCenterApp.Login">
+<ContentPage  xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ShoppingCenterApp.Login" Title="Login">
     <ContentPage.Content>
         <StackLayout Padding="20">
             <Label Text="Usuario" />
             <Entry x:Name="user" Placeholder="user@user.com.." />
             <Label Text="Contraseña" />
             <Entry x:Name="pass" IsPassword="true" />
-            <Button Text="Iniciar Sesion" Clicked="Login_Clicked" />
+            <Button Text="Iniciar Sesion"  />
             <Label Text="¿No tienes Cuenta?" FontSize="10" HorizontalOptions="Center" />
-            <Button Text="Registrarse" Clicked="signin_Clicked"  />
+            <Button Text="Registrarse" Clicked="signin_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

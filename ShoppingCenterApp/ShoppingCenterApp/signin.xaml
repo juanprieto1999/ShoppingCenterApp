@@ -10,13 +10,15 @@
                             <Entry Placeholder="Contraseña" IsPassword="true" />
                         </ViewCell>
                     </TableSection>
+                    <TableSection Title="Datos Basicos">
+                        <EntryCell Label="Nombres" />
+                        <EntryCell Label="Apellidos" />
+                        <EntryCell Label="Telefono" Placeholder="(310)000-0000" Keyboard="Telephone" />
+                        <EntryCell Label="Direccion" />
+                    </TableSection>
                 </TableView.Root>
-                <TableSection Title="Datos Basicos">
-                    <EntryCell Label="Nombres" />
-                    <EntryCell Label="Apellidos" />
-                    <EntryCell Label="Telefono" Placeholder="(310)000-0000" Keyboard="Telephone" />
-                    <EntryCell Label="Direccion" />
-                </TableSection>
+                                           
+                           
             </TableView>
             <Button Text="Registrarse" Clicked="Handle_Clicked" />
         </StackLayout>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ShoppingCenterApp.Home" Title="Shopping Center">
+    <ContentPage.ToolbarItems >
+        <ToolbarItem Icon="cart.png" Text="Carrito"  x:Name="carview">
+            
+            
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ScrollView>
 
@@ -25,19 +31,23 @@
             </Grid>-->
                 <StackLayout Padding="10,0">
                     <Label Text="Comidas" HorizontalOptions="Center" FontSize="Large"/>
-                    <Button Image="comida.jpg"   VerticalOptions="FillAndExpand" HeightRequest="200"/>
+                    <Button Image="comida.jpg"   
+                            HeightRequest="200"
+                            />
                     <Label Text="Tecnologia" HorizontalOptions="Center" FontSize="Large"/>
                     <Button Image="tecnologia.jpg"  
-                      
+                      HeightRequest="200"
                             />
                     <Label Text="Calzado" HorizontalOptions="Center" FontSize="Large"/>
-                    <Image Source="zapatos.jpg"   />
+                    <Button Image="zapatos.jpg"  
+                            HeightRequest="200"/>
                     <Label Text="Herramientas" 
                     HorizontalOptions="Center" 
                     FontSize="Large"/>
                
-                    <Image 
-                        Source="Herramientas.jpg"                             
+                    <Button 
+                        Image="Herramientas.jpg" 
+                        HeightRequest="200"
                             />
                         
                    

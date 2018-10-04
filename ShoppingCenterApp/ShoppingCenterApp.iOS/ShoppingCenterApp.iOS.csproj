@@ -157,13 +157,20 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\home.png" />
-    <BundleResource Include="Resources\store.png" />
     <BundleResource Include="Resources\comida.jpg" />
     <BundleResource Include="Resources\tecnologia.jpg" />
     <BundleResource Include="Resources\zapatos.jpg" />
     <BundleResource Include="Resources\Herramientas.jpg" />
     <BundleResource Include="Resources\imagen1.jpg" />
     <BundleResource Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\store.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cart.png" />
   </ItemGroup>
 </Project>

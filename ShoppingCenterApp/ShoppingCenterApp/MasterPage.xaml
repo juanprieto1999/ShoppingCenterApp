@@ -13,7 +13,7 @@
                     <x:Array Type="{x:Type local:MasterPageItem}">
                         <local:MasterPageItem Titulo="Iniciar Sesion" Icono="user.png" TipoPagina="{x:Type local:Login}"/>
                         <local:MasterPageItem Titulo="Inicio" Icono="home.png" TipoPagina="{x:Type local:Home}"/>
-                        <local:MasterPageItem Titulo="Tus Tiendas" Icono="store.png" TipoPagina="{x:Type local:MisTiendas}"/>
+                        <local:MasterPageItem Titulo="Mis Tiendas" Icono="store.png" TipoPagina="{x:Type local:MisTiendas}"/>
 
                     </x:Array>
                 </ListView.ItemsSource>

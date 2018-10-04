@@ -20,6 +20,12 @@ namespace ShoppingCenterApp
 		public Home ()
 		{
 			InitializeComponent ();
+            carview.Clicked += Carview_Clicked;
 		}
-	}
+
+        private void Carview_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Car());
+        }
+    }
 }

@@ -9,6 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Car.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Home.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
