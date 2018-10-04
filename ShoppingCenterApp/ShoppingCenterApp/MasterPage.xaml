@@ -10,7 +10,6 @@
         <StackLayout>
             <ListView x:Name="listView">
                 <ListView.ItemsSource>
-                    
                     <x:Array Type="{x:Type local:MasterPageItem}">
                         <local:MasterPageItem Titulo="Inicio" Icono="home.png" TipoPagina="{x:Type local:Home}"/>
                         <local:MasterPageItem Titulo="Tus Tiendas" Icono="store.png" TipoPagina="{x:Type local:MisTiendas}"/>
