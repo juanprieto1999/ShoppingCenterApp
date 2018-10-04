@@ -2,19 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingCenterApp.Car"
+             xmlns:local="clr-namespace:ShoppingCenterApp"
              Title="Carrito">
     <ContentPage.Content>
             <StackLayout>
             <ListView>
                 <ListView.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Zapato</x:String>
-                        <x:String>Camisa</x:String>
-        
-         
+                    <x:Array Type="{x:Type local:CarItem}">
+                        <local:CarItem Titulo="Camisa" Icono="camisa.png" Precio="40000" />
+                        <local:CarItem Titulo="Pantalon" Icono="pantalon.png" Precio="50000" />
+                        <local:CarItem Titulo="Computador De Escritorio" Icono="computador.png" Precio="1500000" />
                     </x:Array>
                 </ListView.ItemsSource>
-
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell Text="{Binding Titulo}" TextColor="Black"  Detail="{Binding Precio}"  ImageSource="{Binding Icono}"  />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
             </ListView>
         </StackLayout>
     </ContentPage.Content>
