@@ -4,17 +4,18 @@
              x:Class="ShoppingCenterApp.MasterPage"
              xmlns:local="clr-namespace:ShoppingCenterApp"
              Padding="0,40,0,0"
-             Icon="prueba.png"
+             Icon="store.png"
              Title="Shopping">
     <ContentPage.Content>
         <StackLayout>
             <ListView x:Name="listView">
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type local:MasterPageItem}">
+                        <local:MasterPageItem Titulo="Iniciar Sesion" Icono="user.png" TipoPagina="{x:Type local:Login}"/>
                         <local:MasterPageItem Titulo="Inicio" Icono="home.png" TipoPagina="{x:Type local:Home}"/>
                         <local:MasterPageItem Titulo="Tus Tiendas" Icono="store.png" TipoPagina="{x:Type local:MisTiendas}"/>
-                    </x:Array>
 
+                    </x:Array>
                 </ListView.ItemsSource>
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -27,6 +28,8 @@
                                 <Image Source="{Binding Icono}"/>
                                 <Label Grid.Column="1" Text="{Binding Titulo}"/>
                             </Grid>
+
+                            
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

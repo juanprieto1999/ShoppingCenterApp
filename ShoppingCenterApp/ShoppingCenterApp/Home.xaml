@@ -23,15 +23,18 @@
                 <Button Image="zapatos.jpg" Grid.Row="1" Grid.Column="0" />
                 <Button Image="Herramientas.jpg" Grid.Row="1" Grid.Column="1" />
             </Grid>-->
+             <StackLayout>
              <Label Text="Comidas" HorizontalOptions="Center" FontSize="Large"/>
-             <Button Image="comida.jpg"  VerticalOptions="FillAndExpand" HeightRequest="200" Margin="10,0"/>
+             <Button Image="comida.jpg"   VerticalOptions="FillAndExpand" HeightRequest="200" Margin="10,0"/>
              <Label Text="Tecnologia" HorizontalOptions="Center" FontSize="Large"/>  
              <Button Image="tecnologia.jpg" VerticalOptions="FillAndExpand" HeightRequest="200" Margin="10,0"/>
              <Label Text="Calzado" HorizontalOptions="Center" FontSize="Large"/>
              <Button Image="zapatos.jpg" VerticalOptions="FillAndExpand" HeightRequest="200" Margin="10,0" />
              <Label Text="Herramientas" HorizontalOptions="Center" FontSize="Large"/>
              <Button Image="Herramientas.jpg" VerticalOptions="FillAndExpand" HeightRequest="200" Margin="10,0" />
-        </StackLayout>
+              </StackLayout>
+            </StackLayout>
+         
          
            </ScrollView>
     </ContentPage.Content>

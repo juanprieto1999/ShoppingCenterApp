@@ -89,6 +89,7 @@
     <AndroidResource Include="Resources\drawable\zapatos.jpg" />
     <AndroidResource Include="Resources\drawable\Herramientas.jpg" />
     <AndroidResource Include="Resources\drawable\imagen1.jpg" />
+    <AndroidResource Include="Resources\drawable\user.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />
