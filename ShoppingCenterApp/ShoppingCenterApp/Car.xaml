@@ -5,13 +5,13 @@
              xmlns:local="clr-namespace:ShoppingCenterApp"
              Title="Carrito">
     <ContentPage.Content>
-            <StackLayout>
+        <StackLayout>
             <ListView>
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type local:CarItem}">
-                        <local:CarItem Titulo="Camisa" Icono="camisa.png" Precio="40000" />
-                        <local:CarItem Titulo="Pantalon" Icono="pantalon.png" Precio="50000" />
-                        <local:CarItem Titulo="Computador De Escritorio" Icono="computador.png" Precio="1500000" />
+                        <local:CarItem Titulo="Camisa" Icono="camisa.png" Precio="$40000" />
+                        <local:CarItem Titulo="Pantalon" Icono="store.png" Precio="$50000" />
+                        <local:CarItem Titulo="Computador De Escritorio" Icono="computador.png" Precio="$1500000" />
                     </x:Array>
                 </ListView.ItemsSource>
                 <ListView.ItemTemplate>

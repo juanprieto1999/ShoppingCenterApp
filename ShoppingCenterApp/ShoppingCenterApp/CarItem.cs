@@ -8,7 +8,6 @@ namespace ShoppingCenterApp
     {
         public string Titulo { get; set; }
         public string Icono { get; set; }
-        public string Detalle { get; set; }
-        public int Precio { get; set; }
+        public string Precio { get; set; }
     }
 }

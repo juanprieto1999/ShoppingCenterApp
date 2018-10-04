@@ -10,11 +10,12 @@ namespace ShoppingCenterApp
         public Login()
         {
             InitializeComponent();
+            registrobtn.Clicked += Registrobtn_Clicked;
         }
-        async void signin_Clicked(object sender, System.EventArgs e)
-        {
 
-            await Navigation.PushAsync(new signin());
+        private void Registrobtn_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new signin());
         }
 
 
