@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ShoppingCenterApp.Home" Title="Shopping Center">
     <ContentPage.Content>
-    <ScrollView>
-            
-        <StackLayout>
-            <SearchBar x:Name="serchbar" Placeholder="Buscar" SearchButtonPressed="Handle_SearchButtonPressed" />
-            <Image HorizontalOptions="FillAndExpand" HeightRequest="200" Margin="5" Source="imagen1.jpg" />
-            <Label Text="Categorias" HorizontalTextAlignment="Center" FontSize="30" />
-      
-          
-             <!--   <Grid ColumnSpacing="7" Margin="5,0,5,0" >
+        <ScrollView>
+
+            <StackLayout>
+                <SearchBar x:Name="serchbar" Placeholder="Buscar" SearchButtonPressed="Handle_SearchButtonPressed" />
+                <Image HorizontalOptions="FillAndExpand" HeightRequest="200" Margin="5" Source="imagen1.jpg" />
+                <Label Text="Categorias" HorizontalTextAlignment="Center" FontSize="30" />
+
+
+                <!--   <Grid ColumnSpacing="7" Margin="5,0,5,0" >
                 <Grid.RowDefinitions>
                     <RowDefinition />
                     <RowDefinition />
@@ -23,19 +23,28 @@
                 <Button Image="zapatos.jpg" Grid.Row="1" Grid.Column="0" />
                 <Button Image="Herramientas.jpg" Grid.Row="1" Grid.Column="1" />
             </Grid>-->
-             <StackLayout>
-             <Label Text="Comidas" HorizontalOptions="Center" FontSize="Large"/>
-             <Button Image="comida.jpg"   VerticalOptions="FillAndExpand" HeightRequest="200" Margin="10,0"/>
-             <Label Text="Tecnologia" HorizontalOptions="Center" FontSize="Large"/>  
-             <Button Image="tecnologia.jpg" VerticalOptions="FillAndExpand" HeightRequest="200" Margin="10,0"/>
-             <Label Text="Calzado" HorizontalOptions="Center" FontSize="Large"/>
-             <Button Image="zapatos.jpg" VerticalOptions="FillAndExpand" HeightRequest="200" Margin="10,0" />
-             <Label Text="Herramientas" HorizontalOptions="Center" FontSize="Large"/>
-             <Button Image="Herramientas.jpg" VerticalOptions="FillAndExpand" HeightRequest="200" Margin="10,0" />
-              </StackLayout>
+                <StackLayout Padding="10,0">
+                    <Label Text="Comidas" HorizontalOptions="Center" FontSize="Large"/>
+                    <Button Image="comida.jpg"   VerticalOptions="FillAndExpand" HeightRequest="200"/>
+                    <Label Text="Tecnologia" HorizontalOptions="Center" FontSize="Large"/>
+                    <Button Image="tecnologia.jpg"  
+                      
+                            />
+                    <Label Text="Calzado" HorizontalOptions="Center" FontSize="Large"/>
+                    <Image Source="zapatos.jpg"   />
+                    <Label Text="Herramientas" 
+                    HorizontalOptions="Center" 
+                    FontSize="Large"/>
+               
+                    <Image 
+                        Source="Herramientas.jpg"                             
+                            />
+                        
+                   
+                </StackLayout>
             </StackLayout>
-         
-         
-           </ScrollView>
+
+
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
