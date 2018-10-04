@@ -14,7 +14,7 @@ namespace ShoppingCenterApp
 
         public signin()
         {
-            
+            InitializeComponent();
         }
     }
 }

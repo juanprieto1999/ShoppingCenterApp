@@ -30,17 +30,20 @@
                 <Button Image="Herramientas.jpg" Grid.Row="1" Grid.Column="1" />
             </Grid>-->
                 <StackLayout Padding="10,0">
+                   
                     <Label Text="Comidas" HorizontalOptions="Center" FontSize="Large"/>
-                    <Button Image="comida.jpg"   
+                    <Image Source="comida.jpg"   
                             HeightRequest="200"
+                           x:Name="comidas"
                             />
                     <Label Text="Tecnologia" HorizontalOptions="Center" FontSize="Large"/>
                     <Button Image="tecnologia.jpg"  
-                      HeightRequest="200"
+                      HeightRequest="200"   
                             />
                     <Label Text="Calzado" HorizontalOptions="Center" FontSize="Large"/>
                     <Button Image="zapatos.jpg"  
-                            HeightRequest="200"/>
+                            HeightRequest="200"
+                            />
                     <Label Text="Herramientas" 
                     HorizontalOptions="Center" 
                     FontSize="Large"/>

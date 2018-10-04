@@ -28,8 +28,6 @@
                                 <Image Source="{Binding Icono}"/>
                                 <Label Grid.Column="1" Text="{Binding Titulo}"/>
                             </Grid>
-
-                            
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

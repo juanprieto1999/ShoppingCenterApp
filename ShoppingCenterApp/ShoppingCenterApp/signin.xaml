@@ -5,7 +5,7 @@
             <TableView>
                 <TableView.Root>
                     <TableSection Title="Usuario y Contraseña">
-                        <EntryCell Placeholder="Usuario" Label="user@user.com.." />
+                        <EntryCell Placeholder="user@user.com.." Label="Usuario" />
                         <ViewCell>
                             <Entry Placeholder="Contraseña" IsPassword="true" />
                         </ViewCell>
@@ -13,7 +13,7 @@
                     <TableSection Title="Datos Basicos">
                         <EntryCell Label="Nombres" />
                         <EntryCell Label="Apellidos" />
-                        <EntryCell Label="Telefono" Placeholder="(310)000-0000" Keyboard="Telephone" />
+                        <EntryCell Label="Telefono" Placeholder="ej.(310)000-0000" Keyboard="Telephone" />
                         <EntryCell Label="Direccion" />
                     </TableSection>
                 </TableView.Root>

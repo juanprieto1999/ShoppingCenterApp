@@ -21,6 +21,7 @@ namespace ShoppingCenterApp
 		{
 			InitializeComponent ();
             carview.Clicked += Carview_Clicked;
+           
 		}
 
         private void Carview_Clicked(object sender, EventArgs e)
