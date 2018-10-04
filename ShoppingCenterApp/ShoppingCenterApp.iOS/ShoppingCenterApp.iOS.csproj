@@ -152,8 +152,17 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\ShoppingCenterApp\ShoppingCenterApp.csproj">
-      <Project>{4BF78FA7-2CC4-4B60-96EF-2EAB0FC3C06D}</Project>
+      <Project>{8D960C75-FCBC-47C9-86FC-A8400B5A094B}</Project>
       <Name>ShoppingCenterApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\home.png" />
+    <BundleResource Include="Resources\store.png" />
+    <BundleResource Include="Resources\comida.jpg" />
+    <BundleResource Include="Resources\tecnologia.jpg" />
+    <BundleResource Include="Resources\zapatos.jpg" />
+    <BundleResource Include="Resources\Herramientas.jpg" />
+    <BundleResource Include="Resources\imagen1.jpg" />
   </ItemGroup>
 </Project>

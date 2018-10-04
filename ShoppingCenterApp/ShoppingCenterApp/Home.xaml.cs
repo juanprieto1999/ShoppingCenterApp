@@ -12,6 +12,11 @@ namespace ShoppingCenterApp
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Home : ContentPage
 	{
+        void Handle_SearchButtonPressed(object sender, System.EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
 		public Home ()
 		{
 			InitializeComponent ();

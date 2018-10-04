@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingCenterApp.MasterPage"
@@ -10,10 +10,10 @@
         <StackLayout>
             <ListView x:Name="listView">
                 <ListView.ItemsSource>
+                    
                     <x:Array Type="{x:Type local:MasterPageItem}">
-                        <local:MasterPageItem Titulo="Inicio" Icono="contactos.png" TipoPagina="{x:Type local:Home}"/>
-                        <local:MasterPageItem Titulo="Tus Tiendas" Icono="listado.png" TipoPagina="{x:Type local:MisTiendas}"/>
-                      
+                        <local:MasterPageItem Titulo="Inicio" Icono="home.png" TipoPagina="{x:Type local:Home}"/>
+                        <local:MasterPageItem Titulo="Tus Tiendas" Icono="store.png" TipoPagina="{x:Type local:MisTiendas}"/>
                     </x:Array>
 
                 </ListView.ItemsSource>

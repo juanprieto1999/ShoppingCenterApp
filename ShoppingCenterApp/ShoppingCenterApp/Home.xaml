@@ -1,23 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ShoppingCenterApp.Home"
-             Title="Shopping Center">
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ShoppingCenterApp.Home" Title="Shopping Center">
     <ContentPage.Content>
         <StackLayout>
-            <Entry
-                x:Name="SearchEntry"
-                Placeholder="Buscar"
-                Keyboard="Text"
-               HorizontalOptions="FillAndExpand"/>
-
-            <Image Source="SL1.jpg" HorizontalOptions="Center" WidthRequest="20"/>
-        </StackLayout>
-        
-        <StackLayout>
-            <Image Source="img1.jgp" />
-            
-            
+            <SearchBar x:Name="serchbar" Placeholder="Buscar" SearchButtonPressed="Handle_SearchButtonPressed" />
+            <Image HorizontalOptions="FillAndExpand" HeightRequest="200" Margin="5" Source="imagen1.jpg" />
+            <Label Text="Categorias" HorizontalTextAlignment="Center" FontSize="30" />
+            <Grid ColumnSpacing="7" Margin="5,0,5,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Button Image="comida.jpg" Grid.Row="0" Grid.Column="0" HeightRequest="150" />
+                <Button Image="tecnologia.jpg" Grid.Row="0" Grid.Column="1" />
+                <Button Image="zapatos.jpg" Grid.Row="1" Grid.Column="0" />
+                <Button Image="Herramientas.jpg" Grid.Row="1" Grid.Column="1" />
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

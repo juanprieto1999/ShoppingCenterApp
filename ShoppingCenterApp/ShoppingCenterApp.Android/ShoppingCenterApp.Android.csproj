@@ -82,6 +82,13 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\drawable\home.png" />
+    <AndroidResource Include="Resources\drawable\store.png" />
+    <AndroidResource Include="Resources\drawable\comida.jpg" />
+    <AndroidResource Include="Resources\drawable\tecnologia.jpg" />
+    <AndroidResource Include="Resources\drawable\zapatos.jpg" />
+    <AndroidResource Include="Resources\drawable\Herramientas.jpg" />
+    <AndroidResource Include="Resources\drawable\imagen1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />
@@ -91,7 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ShoppingCenterApp\ShoppingCenterApp.csproj">
-      <Project>{4BF78FA7-2CC4-4B60-96EF-2EAB0FC3C06D}</Project>
+      <Project>{8D960C75-FCBC-47C9-86FC-A8400B5A094B}</Project>
       <Name>ShoppingCenterApp</Name>
     </ProjectReference>
   </ItemGroup>
