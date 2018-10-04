@@ -37,19 +37,19 @@
                            x:Name="comidas"
                             />
                     <Label Text="Tecnologia" HorizontalOptions="Center" FontSize="Large"/>
-                    <Button Image="tecnologia.jpg"  
+                    <Image Source="tecnologia.jpg"  
                       HeightRequest="200"   
                             />
                     <Label Text="Calzado" HorizontalOptions="Center" FontSize="Large"/>
-                    <Button Image="zapatos.jpg"  
+                    <Image Source="zapatos.jpg"  
                             HeightRequest="200"
                             />
                     <Label Text="Herramientas" 
                     HorizontalOptions="Center" 
                     FontSize="Large"/>
                
-                    <Button 
-                        Image="Herramientas.jpg" 
+                    <Image 
+                        Source="Herramientas.jpg" 
                         HeightRequest="200"
                             />
                         

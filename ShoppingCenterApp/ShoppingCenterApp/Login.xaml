@@ -6,7 +6,7 @@
             <Entry x:Name="user" Placeholder="user@user.com.." />
             <Label Text="Contraseña" />
             <Entry x:Name="pass" IsPassword="true" />
-            <Button Text="Iniciar Sesion"  />
+            <Button Text="Iniciar Sesion"  Clicked="Login_Clicked" />
             <Label Text="¿No tienes Cuenta?" FontSize="10" HorizontalOptions="Center" />
             <Button Text="Registrarse" x:Name="registrobtn"/>
         </StackLayout>

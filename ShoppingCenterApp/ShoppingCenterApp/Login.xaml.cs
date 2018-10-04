@@ -25,6 +25,8 @@ namespace ShoppingCenterApp
             {
                 await DisplayAlert("Exito", "Todos tus campos cumplieron las validaciones", "Ok");
 
+
+
             }
 
 

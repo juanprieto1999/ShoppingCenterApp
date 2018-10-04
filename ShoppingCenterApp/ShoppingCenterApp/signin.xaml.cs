@@ -10,6 +10,7 @@ namespace ShoppingCenterApp
         void Handle_Clicked(object sender, System.EventArgs e)
         {
             DisplayAlert("Registro", "Registro Correctamente", "Ok");
+           
         }
 
         public signin()
