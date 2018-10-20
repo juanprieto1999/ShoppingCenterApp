@@ -104,6 +104,12 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\drawable\comida.jpg" />
+    <AndroidResource Include="Resources\drawable\tecnologia.jpg" />
+    <AndroidResource Include="Resources\drawable\zapatos.jpg" />
+    <AndroidResource Include="Resources\drawable\Herramientas.jpg" />
+    <AndroidResource Include="Resources\drawable\imagen1.jpg" />
+    <AndroidResource Include="Resources\drawable\user.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />
@@ -113,12 +119,40 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ShoppingCenterApp\ShoppingCenterApp.csproj">
-      <Project>{4BF78FA7-2CC4-4B60-96EF-2EAB0FC3C06D}</Project>
+      <Project>{8D960C75-FCBC-47C9-86FC-A8400B5A094B}</Project>
       <Name>ShoppingCenterApp</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="Resources\drawable\splash.jpg" />
+=======
+    <AndroidResource Include="Resources\drawable\Sl1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\store.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\camisa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\pantalon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\computador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\splash.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Icono.PNG" />
+>>>>>>> a8e4cb928efc5b3321cb911d554539bfc48fbefb
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

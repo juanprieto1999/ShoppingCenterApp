@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
 
+<<<<<<< HEAD
   <style name="Theme.Splash" parent="android:Theme"><!--cambio 1 pantalla splash-->
     <item name="android:windowBackground">@drawable/splash.JPG</item>
     <item name="android:windowNoTitle">true</item>
+=======
+  <style name="Theme.Splash"
+        parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splash </item>
+    <item name="android:windowNoTitle"> true </item>
+>>>>>>> a8e4cb928efc5b3321cb911d554539bfc48fbefb
   </style>
 
   <style name="MainTheme" parent="MainTheme.Base">
